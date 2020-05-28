@@ -14,12 +14,12 @@ function App() {
   const apiurl = "http://www.omdbapi.com/?apikey=d20c1db3";
 
   const search = (e) => {
-    if (e.key === "Enter") {
+    if (e.key ===  "Enter") {
       axios(apiurl + "&s=" + state.s).then(({ data }) => {
-        let results = data.Search;
+        let results =  data.Search;
 
         setState(prevState => {
-          return { ...prevState, results: results }
+          return { ... prevState, results: results }
         })
       });
     }
