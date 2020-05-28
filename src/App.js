@@ -33,7 +33,7 @@ function App() {
     });
   }
 
-  const openPopup = id => {
+  const  openPopup = id => {
     axios(apiurl + "&i=" + id).then(({ data }) => {
       let result = data;
 
@@ -57,7 +57,7 @@ function App() {
         <h1>Movie Database</h1>
       </header>
       <main>
-        <Search handleInput={handleInput} search={search} />
+        <Search handleInput= {handleInput} search={search} />
 
         <Results results={state.results} openPopup={openPopup} />
 
