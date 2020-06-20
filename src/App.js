@@ -14,12 +14,12 @@ function App() {
   const apiurl = "http://www.omdbapi.com/?apikey=d20c1db3";
 
   const search = (e) => {
-    if (e.key === "Enter") {
+    if (e.key ===  "Enter") {
       axios(apiurl + "&s=" + state.s).then(({ data }) => {
-        let results = data.Search;
+        let results =  data.Search;
 
         setState(prevState => {
-          return { ...prevState, results: results }
+          return { ... prevState, results: results }
         })
       });
     }
@@ -33,7 +33,7 @@ function App() {
     });
   }
 
-  const openPopup = id => {
+  const  openPopup = id => {
     axios(apiurl + "&i=" + id).then(({ data }) => {
       let result = data;
 
@@ -57,9 +57,9 @@ function App() {
         <h1>Movie Database</h1>
       </header>
       <main>
-        <Search handleInput={handleInput} search={search} />
+        <Search handleInput= {handleInput} search= {search} />
 
-        <Results results={state.results} openPopup={openPopup} />
+        <Results results={state.results} openPopup = {openPopup} />
 
         {(typeof state.selected.Title != "undefined") ? <Popup selected={state.selected} closePopup={closePopup} /> : false}
       </main>
