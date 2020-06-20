@@ -1,3 +1,7 @@
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+
+[![Build Status](https://travis-ci.org/athityakumar/colorls.svg?branch=master)](https://travis-ci.org/athityakumar/colorls)
+
 # A Movie Database App using [React.js](https://reactjs.org)
 
 > **This application is to show list of movies based on the movies searched.
@@ -14,7 +18,7 @@ Node (≥ 6)
 A cool text Editor
 An API key from OMDB (You can obtain it here or use mine)
 
-
+** 
 
 
 ## Scripts
