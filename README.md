@@ -51,3 +51,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - [react-reveal](https://www.react-reveal.com/)
 - [styled-components](https://styled-components.com/)
 
+# Contributing 💡
+If you can help us with these. Please don't hesitate to open an [pull request](https://github.com) or [issue]
+- Move to Gatsby
+- Add Podcast Section and Video Section
+- Add tests to automate review.
+- Setup Travis workflow.
