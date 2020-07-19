@@ -33,3 +33,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+# Deployment 📦 
+- Once you have done with your setup and you have successfully completed all steps above, You need to put your website online!
+
