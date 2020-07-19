@@ -42,3 +42,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   - ```npm run deploy``` will create another branch called `gh-pages` and it will push the `build` files to that branch.
 - The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
 - Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.
+
+# Technologies used 🛠️
+- [React](https://reactjs.org/)
+- [graphql](https://graphql.org/) 
+- [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
+
