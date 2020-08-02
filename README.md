@@ -50,6 +50,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - [baseui](https://github.com/uber/baseweb)
 - [react-reveal](https://www.react-reveal.com/)
 - [styled-components](https://styled-components.com/)
+- Fetch Api
 
 # Contributing 💡
 If you can help us with these. Please don't hesitate to open an [pull request](https://github.com) or [issue]
