@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/athityakumar/colorls.svg?branch=master)](https://travis-ci.org/athityakumar/colorls)
 
-# A Movie Database App using [React.js](https://reactjs.org)
+## A Movie Database App using [React.js](https://reactjs.org)
 
 > **This application is to show list of movies based on the movies searched.
 
