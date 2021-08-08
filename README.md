@@ -4,7 +4,7 @@
 
 ## A Movie Database App using [React.js](https://reactjs.org)
 
-> **This application is to show list of movies based on the movies searched.
+> **This application is to display the list of movies based on the movies searched.
 
 **This is a app is useful to understand the React Functional Components, Suspense, Lazy, useEffect and useState Hooks .**
 
